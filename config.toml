@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "https://satrdays-event-template.netlify.com/" # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
-languageCode = "en-us"
-title = "satRday"
+baseurl = "https://taiwan2020.satrdays.org/" # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
+languageCode = "zh-tw"  # "en-us"
+title = "satRday taiwan 2020"
 theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
 
 # Enter your tracking code to enable Google Analytics
@@ -20,9 +20,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "satRday [My City]"
-  description = "R conference in [My City]"
-  # email = "your@email.com"
+  name = "satRday Taiwan"   # "satRday [My City]"
+  description = "R conference in Taiwan"   # "R conference in [My City]"
+  email = "rladies.taipei@gmail.com"
 
   # Link custom assets relative to /static
   custom_css = ["css/satrday.css"]
@@ -80,8 +80,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "satRday [My City]"
-    subtitle = "A conference for users of the R Language on [Conference Date]"
+    title = "satRday Taiwan | May 16, 2020" 
+    subtitle = "A conference for users of the R Language" 
     bg = true
     buttonText = "Tell me more"
 
@@ -96,44 +96,44 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [[params.services.row.list]]
       icon = "fa-clock-o"
-      title = "Details"
-      description = "[Conference Date] at [Conference Location]"
+      title = "What's SatRday"
+      description = "R-focused Conference on R and its applications"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Hands on"
-      description = "Practical applications and workshop sessions"
+      title = "Details"
+      description = "2020/05/16 ＠淡江大學"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
       title = "Learning"
-      description = "Gain knowledge from your peers and experienced professionals"
+      description = "Learn from your Peers and Experienced Professionals"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-users"
       title = "Community Lead"
-      description = "Community organised, community focussed"
+      description = "R-Ladies Taiepi / Taiwan R user Group"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-money"
       title = "Affordable"
-      description = "Only [£30]"
+      description = "Free"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-universal-access"
       title = "Accessible"
-      description = "Inclusive, supportive and respectful environment"
+      description = "Inclusive, Supportive and Respectful Environment"
       url = "#"
 
   # Register section
   # You only need ONE of these active
   [params.tito]
-    enable = true
+    enable = false #true
     title = "Register"
     bg = true
     accountevent = "ultimateconf/2013"
@@ -141,7 +141,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       # include botht the account and event in a string, seperated by /, with no spaces
 
   [params.eventbrite]
-    enable = true
+    enable = false #true
     title = "Register"
     bg = true
     eid = "32416000129" 
@@ -164,7 +164,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     enable = true
     title = "Call For Papers"
     bg = false
-    CfSpage = "/test3490"
+    CfSpage = "/satrday-taiwan-2020"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
     dates = "09 Aug - 21 Sep 2018"
 
@@ -175,19 +175,19 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Talks"
-    subtitle = "Who's saying what"
+    title = "Keynote Speakers"
+    subtitle = "" #"Who's saying what"
     bg = true
 
-    [params.portfolio.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
-      buttonText = "Close project"
+    # [params.portfolio.modal]
+    #  client = "Client"
+    #  date = "Date"
+    #  category = "Category"
+    #  buttonText = "Close project"
 
   # Schedule section
   [params.schedule]
-    enable = true
+    enable = false #true
     title = "Schedule"
     bg = false
 
@@ -196,39 +196,39 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     enable = true
     title = "Important Dates"
     subtitle = "Be prepared!"
-    endpoint = "Conference"
+    endpoint = "May 16<br>The<br>SatRday"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "First Date"
-      title = "Initial Announcement"
-      description = "We're organising a conference!"
+      date = "March 1"
+      title = "開放報名"
+      description = "免費"
 
-    [[params.about.events]]
-      img = "2.jpg"
-      date = "Second Date"
-      title = "Early Bird Ticket Sales"
-      description = "Early round of tickets now available at discount"
+    #[[params.about.events]]
+    #  img = "2.jpg"
+    #  date = "Second Date"
+    #  title = "Early Bird Ticket Sales"
+    #  description = "Early round of tickets now available at discount"
 
-    [[params.about.events]]
-      img = "3.jpg"
-      date = "Third Date"
-      title = "Call For Papers"
-      description = "Submissions for speakers are now open!"
+    #[[params.about.events]]
+    #  img = "3.jpg"
+    #  date = "Third Date"
+    #  title = "Call For Papers"
+    #  description = "Submissions for speakers are now open!"
 
-    [[params.about.events]]
-      img = "4.jpg"
-      date = "Fourth Date"
-      title = "Call For Papers Ends"
-      description = "Cut off date for speaker submissions"
+    #[[params.about.events]]
+    #  img = "4.jpg"
+    #  date = "Fourth Date"
+    #  title = "Call For Papers Ends"
+    #  description = "Cut off date for speaker submissions"
   
   # Location section
   [params.location]
     enable = true
-    title = "Location title"
+    title = "Location"
     bg = true
     iframesrc = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12770.336629178193!2d174.7680403!3d-36.8524341!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x868a73f26ed3e621!2sDepartment+of+Statistics%2C+University+of+Auckland!5e0!3m2!1sen!2suk!4v1533231461829"
 
@@ -236,55 +236,38 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.team]
     enable = true
     # Possibility to center items
-    #center = true
+    center = true
     title = "Team"
     subtitle = "The people putting it together"
     bg = false
     description = ""
-    speakers = "Speakers"
+    #speakers = "Speakers" #<- Speaker section  and also add Speaker01.toml
     
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 1"
-      position = "Organiser Position 1"
+      img = "kristen.jpg"
+      name = "Kristen Chan"
+      position = "Organizer"
       reportsTo = ""
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "Role 1 for [thing 1](#)",
-        "Role 2 for [thing 2](#)",
-        "Role 3 for [thing 3](#)"
-      ]
       # For bio markdown and even multiline strings are available.
-      bio = """I do things,
-      and stuff"""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
+        ["fa-github", "https://github.com/kristenchan"],
         ["fa-linkedin", "#"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 2"
-      position = "Organiser Position 2"
+      img = "amy.jpg"
+      name = "Amy Tzu-Yu Chen"
+      position = "Organizer"
+      reportsTo = ""
+      # For bio markdown and even multiline strings are available.
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 3"
-      position = "Organiser Position 3"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/amy17519"],
+        ["fa-github", "https://github.com/amy17519"],
+        ["fa-linkedin", "http://linkedin.com/in/amy17519/"]
       ]
 
   # Client section
@@ -300,29 +283,17 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
     [[params.clients]]
-      logo = "envato.jpg"
-      link = "#"
-
-    [[params.clients]]
-      logo = "designmodo.jpg"
-      link = "#"
-
-    [[params.clients]]
-      logo = "themeforest.jpg"
-      link = "#"
-
-    [[params.clients]]
-      logo = "creative-market.jpg"
-      link = "#"
+      logo = "rstudio.png"
+      link = "https://www.rstudio.com"
   
   [params.diversity]
     enable = true
-    title = "Diversity"
+    title = "Code of Conduct"
     bg = true
 
   # Contact section
   [params.contact]
-    enable = true
+    enable = false
     title = "Contact us"
     subtitle  = "Lorem ipsum dolor sit amet consectetur."
     buttonText = "Send message"
