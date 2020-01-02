@@ -103,7 +103,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.services.row.list]]
       icon = "fa-laptop"
       title = "Details"
-      description = "2020/05/16 ＠淡江大學"
+      description = "2020/05/16 ＠ Tamkang University"
       url = "#"
 
     [[params.services.row.list]]
@@ -204,8 +204,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.about.events]]
       img = "1.jpg"
       date = "March 1"
-      title = "開放報名"
-      description = "免費"
+      title = "Open Registration"
+      description = "Free"
 
     #[[params.about.events]]
     #  img = "2.jpg"
