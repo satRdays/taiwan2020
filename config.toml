@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://taiwan2020.satrdays.org/ " # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
+baseurl = "https://taiwan2020.satrdays.org/" # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
 languageCode = "zh-tw"
 title = "satRday Taiwan"
 theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
