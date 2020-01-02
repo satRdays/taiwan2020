@@ -1,6 +1,6 @@
 # Site settings
 baseurl = "https://taiwan2020.satrdays.org/" # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
-languageCode = "zh-tw"
+languageCode = "en-us"
 title = "satRday Taiwan"
 theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
 
@@ -258,17 +258,17 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         ["fa-linkedin", "#"]
       ]
 
-    # [[params.team.members]]
-    #  img = "amy.jpg"
-    #  name = "Amy Tzu-Yu Chen"
-    #  position = "Organizer"
-    #  reportsTo = ""
-    #  # For bio markdown and even multiline strings are available.
-    #  social = [
-    #    ["fa-twitter", "https://twitter.com/amy17519"],
-    #    ["fa-github", "https://github.com/amy17519"],
-    #    ["fa-linkedin", "http://linkedin.com/in/amy17519"]
-    #  ]
+    [[params.team.members]]
+     img = "amy.jpg"
+     name = "Amy Tzu-Yu Chen"
+     position = "Organizer"
+     reportsTo = ""
+     # For bio markdown and even multiline strings are available.
+     social = [
+        ["fa-twitter", "https://twitter.com/amy17519"],
+        ["fa-github", "https://github.com/amy17519"],
+        ["fa-linkedin", "http://linkedin.com/in/amy17519"]
+    ]
 
     # [[params.team.members]]
     #  img = "faceholder.png"
