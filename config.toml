@@ -1,14 +1,11 @@
 # Site settings
-baseurl = "https://taiwan2020.satrdays.org/" # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
-languageCode = "zh-tw"  # "en-us"
-title = "satRday Taiwan"
+baseurl = "https://taiwan2020.satrdays.org/"
+languageCode = "en-us"
+title = "satRday LA 2019"
 theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
-
-# Disable taxonomies that are not used https://discourse.gohugo.io/t/found-no-layout-for-taxonomyterm-language-en-output-format-html/16376
-disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
@@ -20,9 +17,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "satRday in Taiwan"
-  description = "R conference in Taiwan"
-  # email = "your@email.com"
+  name = "satRday Los Angeles 2019"
+  description = "R conference in Los Angeles"
+  email = "satrdays.losangeles@gmail.com"
 
   # Link custom assets relative to /static
   custom_css = ["css/satrday.css"]
@@ -54,10 +51,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     logo = "logo.png"
     services = "About"
     portfolio = "Talks"
-    #eventbrite = "Register"
-    #schedule = "Schedule"
-    about = "Schedule"
-    team = "Team"
+    eventbrite = "Register"
+    schedule = "Schedule"
+    team = "People"
     contact = "Get involved"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -81,8 +77,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "satRday Taiwan | May 16, 2020"
-    subtitle = "A conference for users of the R Language"
+    title = "SatRday Los Angeles | Apr 6, 2019"
+    subtitle = "A conference for users of R Language"
     bg = true
     buttonText = "Tell me more"
 
@@ -96,15 +92,15 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-clock-o"
+      icon = "fa-laptop"
       title = "What's SatRday"
       description = "R-focused Conference on R and its applications"
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-laptop"
+      icon = "fa-clock-o"
       title = "Details"
-      description = "2020/05/16 ＠ Tamkang University"
+      description = "April 6, 2019 @ UCLA James West Alumni Center"
       url = "#"
 
     [[params.services.row.list]]
@@ -115,14 +111,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [[params.services.row.list]]
       icon = "fa-users"
-      title = "Community Lead"
-      description = "R-Ladies Taipei / Taiwan R User Group"
+      title = "Community"
+      description = "Organized by Local Community Volunteer useRs"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-money"
       title = "Affordable"
-      description = "Free"
+      description = "Cheap and Accessible to Everyone!"
       url = "#"
 
     [[params.services.row.list]]
@@ -152,22 +148,22 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       # Supply this string as the value to `eid` above
 
   [params.tickettailor]
-    enable = false
+    enable = true
     title = "Register"
     bg = true
-    eventviewid = "162430"
+    eventviewid = "225572"
       # Go to www.tickettailor.com and open your event page
       # Note the number at the end of the url e.g. https://www.tickettailor.com/event/view/id/162430
       # Supply the number ONLY in `eventviewid`
   
   # Call for papers section
   [params.callforpapers]
-    enable = false
-    title = "Call For Papers"
+    enable = true
+    title = "Call For Presenters | Posters"
     bg = false
-    CfSpage = "/satrday-taiwan-2020"
+    CfSpage = "/satrday-la-2019"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
-    dates = "09 Aug - 21 Sep 2018"
+    dates = "Jan 10 - Feb 10, 2019"
 
   # Talk [Portfolio] section
   [params.portfolio]
@@ -180,11 +176,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     subtitle = ""
     bg = true
 
-    #[params.portfolio.modal]
-     # client = "Client"
-      #date = "Date"
-      #category = "Category"
-      #buttonText = "Close project"
+    # [params.portfolio.modal]
+    #   client = "Client"
+    #   date = "Date"
+    #   category = "Category"
+    #   buttonText = "Close project"
 
   # Schedule section
   [params.schedule]
@@ -197,105 +193,144 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     enable = true
     title = "Important Dates"
     subtitle = "Be prepared!"
-    endpoint = "May 16<br>SatRday Conference"
+    endpoint = "Apr 6<br>The<br>SatRday"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "start.png"
-      date = "March 1"
-      title = "開放報名"
-      description = "Free"
+      img = "lalogo.png"
+      date = "Jan 10"
+      title = "Ticket Sale & Call for Presenters Begin"
+      description = "$35 for Professionals, $15 for Students"
 
-    #[[params.about.events]]
-    #  img = "2.jpg"
-    #  date = "Second Date"
-    #  title = "Early Bird Ticket Sales"
-    #  description = "Early round of tickets now available at discount"
+    [[params.about.events]]
+      img = "oops.png"
+      date = "Feb 10"
+      title = "Call for Presenters Ends"
+      description = "Don't be late!"
 
-    # [[params.about.events]]
-    #  img = "3.jpg"
-    #  date = "Third Date"
-    #  title = "Call For Papers"
-    #  description = "Submissions for speakers are now open!"
+    [[params.about.events]]
+      img = "astonished.png"
+      date = "Mar 10"
+      title = "Final Talk Schedule"
+      description = "Wow I am so glad I bought tickets early!"
 
-    # [[params.about.events]]
-    #  img = "4.jpg"
-    #  date = "Fourth Date"
-    #  title = "Call For Papers Ends"
-    #  description = "Cut off date for speaker submissions"
+
   
   # Location section
   [params.location]
     enable = true
-    title = "Location title"
+    title = "Our Venue at UCLA"
     bg = true
-    iframesrc = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.863827216273!2d121.44511211487061!3d25.174075438816168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aff8c1544bdb%3A0x1dcf4f494b3362b!2sTamkang%20University!5e0!3m2!1sen!2stw!4v1577937288324!5m2!1sen!2stw"
+    iframesrc = "https://maps.google.com/maps?q=ucla%20james%20west%20alumni%20center&t=&z=15&ie=UTF8&iwloc=&output=embed"
 
   # Team section
   [params.team]
     enable = true
     # Possibility to center items
-    # center = true
+    center = true
     title = "Team"
     subtitle = "The people putting it together"
     bg = false
     description = ""
-    # speakers = "Speakers"
+    speakers = "Speakers"
     
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "kristen.jpg"
-      name = "Kristen Chan"
+      img = "amy.jpg"
+      name = "Amy Tzu-Yu Chen"
       position = "Organizer"
       reportsTo = ""
       # For bio markdown and even multiline strings are available.
       social = [
-        ["fa-github", "https://github.com/kristenchan"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/amy17519"],
+        ["fa-github", "https://github.com/amy17519"],
+        ["fa-linkedin", "http://linkedin.com/in/amy17519/"]
       ]
 
     [[params.team.members]]
-     img = "amy.jpg"
-     name = "Amy Tzu-Yu Chen"
-     position = "Organizer"
-     reportsTo = ""
-     # For bio markdown and even multiline strings are available.
-     social = [
-        ["fa-twitter", "https://twitter.com/amy17519"],
-        ["fa-github", "https://github.com/amy17519"],
-        ["fa-linkedin", "http://linkedin.com/in/amy17519"]
-    ]
+      img = "chris.png"
+      name = "Chris Mehrvarzi"
+      position = "Organizer"
+      social = [
+        ["fa-twitter", "https://twitter.com/mehrvch"],
+        ["fa-github", "https://github.com/mehrvch"],
+        ["fa-linkedin", "https://www.linkedin.com/in/mehrvch/"]
+      ]
 
     [[params.team.members]]
-     img = "angie.jpg"
-     name = "Angie Hsu"
-     position = "Organizer"
-     reportsTo = ""
-     # For bio markdown and even multiline strings are available.
-     social = [
-        ["fa-linkedin", "#"]
-    ]
+      img = "placeholder.png"
+      name = "Eric Kostello"
+      position = "Program Committee"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/erickostello/"]
+      ]
 
-    # [[params.team.members]]
-    #  img = "faceholder.png"
-    #  name = "Organiser Name 2"
-    #  position = "Organiser Position 2"
-    #  social = [
-    #    ["fa-twitter", "#"],
-    #    ["fa-github", "#"],
-    #    ["fa-linkedin", "#"]
-    #  ]
+    [[params.team.members]]
+      img = "daroczig.jpg"
+      name = "Gergely Daróczi"
+      position = "Program Committee"
+      social = [
+        ["fa-twitter", "https://twitter.com/daroczig"],
+        ["fa-github", "https://github.com/daroczig"],
+        ["fa-linkedin", "https://www.linkedin.com/in/daroczig/"]
+     ]
+
+    [[params.team.members]]
+      img = "linda.png"
+      name = "Linda Suen"
+      position = "Organizer"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/lindasuen/"]
+      ]
+
+     [[params.team.members]]
+      img = "neal.png"
+      name = "Neal Fultz"
+      position = "Program Committee"
+      social = [
+        ["fa-github", "https://github.com/nfultz"],
+        ["fa-linkedin", "https://www.linkedin.com/in/nfultz/"],
+        ["fa-envelope", "mailto:nfultz@gmail.com"]
+      ]
+
+     [[params.team.members]]
+      img = "peter.jpg"
+      name = "Peter Foley"
+      position = "Program Committee"
+      social = [
+        ["fa-github", "https://github.com/peterfoley"],
+        ["fa-linkedin", "https://www.linkedin.com/in/peter-foley-6600482/"],
+        ["fa-envelope", "mailto:pwfoley@gmail.com"]
+      ]
+
+     [[params.team.members]]
+      img = "pafka.jpg"
+      name = "Szilard Pafka"
+      position = "Program Committee"
+      social = [
+        ["fa-twitter", "https://twitter.com/DataScienceLA"],
+        ["fa-github", "https://github.com/szilard"],
+        ["fa-linkedin", "https://www.linkedin.com/in/szilard"]
+      ]
+
+     [[params.team.members]]
+      img = "placeholder.png"
+      name = "Yasmin Lucero"
+      position = "Program Committee"
+      social = [
+        ["fa-envelope", "mailto:yasmin.lucero@gmail.com"]
+      ]
 
   # Client section
   [params.clients_list]
     enable = true
     # Possibility to center items
-    #center = true
+    # center = true
     # Optional client title specifying the involvement
     title = "Sponsors"
     bg = true
@@ -304,14 +339,25 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
     [[params.clients]]
-      logo = "microsoft.png"
-      link = "#"
-
+      logo = "ucla-alum.jpg"
+      link = "https://alumni.ucla.edu"
+    
     [[params.clients]]
       logo = "rstudio.png"
-      link = "#"
+      link = "https://www.rstudio.com"
+    
+    [[params.clients]]
+      logo = "ipsos.svg"
+      link = "https://www.ipsos.com/en-us"
 
-  
+    [[params.clients]]
+      logo = "system1.png"
+      link = "https://system1.com"
+
+    [[params.clients]]
+      logo = "ucladscenter.svg"
+      link = "https://www.library.ucla.edu/location/data-science-center"
+
   [params.diversity]
     enable = true
     title = "Code of Conduct"
@@ -391,6 +437,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.footer.social]]
       icon = "fa-github"
       link = "https://github.com/satRdays"
+      title = "GitHub"
+
+    [[params.footer.social]]
+      icon = "fa-envelope"
+      link = "mailto:satrdays.losangeles@gmail.com"
       title = "GitHub"
 
     [[params.footer.quicklinks]]

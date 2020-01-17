@@ -1,13 +1,20 @@
-modalID: 2
-title: "Second Talk"
-subtitle: "Second Subtitle"
-date: 1970-01-01
-startsAt: 00:01
-endsAt: 00:02
-img: roundicons.png
-preview: faceholder.png
-client: Speaker Two
-clientLink: "#"
-category: Category 2
-description: "Describe 2"
+# modalID: 1
+title: "Erin LeDell"
+# subtitle: "ffff"
+# date: 1970-01-01
+# startsAt: 00:00
+# endsAt: 00:01
+# img: norm.jpeg
+preview: erin.png
+client: H2O.ai
+clientLink: "http://stat.berkeley.edu/~ledell"
+# category: Category 1
+description: "[Personal Page](http://stat.berkeley.edu/~ledell) | [Twitter](https://twitter.com/ledell) <br>
+Dr. Erin LeDell is the Chief Machine Learning Scientist at H2O.ai and maintainer of the “h2o” R package for machine 
+learning.  She has a Ph.D. in Biostatistics with a Designated Emphasis in Computational Science and Engineering from 
+University of California, Berkeley.  Her research focuses on automatic machine learning, ensemble machine learning and 
+statistical computing.  Before joining H2O.ai, she was the Principal Data Scientist at Wise.io and Marvin Mobile Security, 
+and the founder of DataScientific, Inc.  She is also founder of the [Women in Machine Learning and Data Science (WiMLDS) 
+organization](wimlds.org) and co-founder of the [R-Ladies Global organization](rladies.org).
+"
 talk: true

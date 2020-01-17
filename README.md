@@ -18,16 +18,17 @@ I can give you most of a website for satRdays events, ready (almost) out of the 
 * Important Dates
 * Links to satRdays Code of Conduct and Diversity materials
 
-### Administrator tasks
 
-#### Set the repo as a mirror the main repository
+
+### Admin setup stuff
+#### Mirror the repository
 
 1. Open Git Bash.
 
 2. Create a bare clone of the repository.
 
   ```
-  git clone --bare https://github.com/satRdays/satRday_site_template
+  git clone --bare satRdays/satRday_site_template.git
   ```
 
 3. Mirror-push to the new repository.
@@ -41,21 +42,9 @@ git push --mirror https://github.com/satRdays/[cityYEAR].git
 
 ```
 cd ..
-rm -rf satRday_site_template.git
+rm -rf satRdays/satRday_site_template.git
 ```
-
-### Organiser tasks
-#### Edit the base url in `config.toml`
-Change 
-```
-baseurl = "https://satrdays-event-template.netlify.com/"
-```
-to
-```
-baseurl = "https://yourcity20XX.satrdays.org/"
-```
-otherwise, images you upload to your site won't work.
-
+### Organiser setup stuff
 #### Customise the config
 The file [config.toml](https://github.com/satRdays/satRday_site_template/blob/master/config.toml) gives you access to a number of points on the site, mostly using [site params](https://gohugo.io/variables/site/#the-site-params-variable).
 
@@ -92,8 +81,6 @@ In the hopefully rare event that even more specific material is needed you can e
 
 ### What I am
 I am a [Hugo](//gohugo.io) website, with two themes. [Agency](https://github.com/digitalcraftsman/hugo-agency-theme) provides the base layer of theming, with a custom [satRday](https://github.com/satRdays/hugo-satrdays-theme) theme which overides some areas.
-
-More information on installing [hugo](https://gohugo.io/getting-started/installing/), including setting it up for [local previews](https://gohugo.io/getting-started/usage/) can be found in the official docs.
 
 #### Some notes and gotchas
 As the design is strongly based on the `hugo-agency-theme`, naming conventions are not obvious in certain situations
