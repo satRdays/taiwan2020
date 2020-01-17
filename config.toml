@@ -1,6 +1,6 @@
 # Site settings
 baseurl = "https://taiwan2020.satrdays.org/" # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
-languageCode = "en-us"
+languageCode = "zh-tw"  # "en-us"
 title = "satRday Taiwan"
 theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
 
@@ -54,9 +54,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     logo = "logo.png"
     services = "About"
     portfolio = "Talks"
-    eventbrite = "Register"
-    schedule = "Schedule"
-    team = "People"
+    #eventbrite = "Register"
+    #schedule = "Schedule"
+    about = "Schedule"
+    team = "Team"
     contact = "Get involved"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -81,7 +82,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "satRday Taiwan | May 16, 2020"
-    subtitle = "A conference for users of the R Language on May 16, 2020"
+    subtitle = "A conference for users of the R Language"
     bg = true
     buttonText = "Tell me more"
 
@@ -161,7 +162,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   
   # Call for papers section
   [params.callforpapers]
-    enable = true
+    enable = false
     title = "Call For Papers"
     bg = false
     CfSpage = "/satrday-taiwan-2020"
@@ -187,7 +188,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Schedule section
   [params.schedule]
-    enable = true
+    enable = false
     title = "Schedule"
     bg = false
 
@@ -196,15 +197,15 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     enable = true
     title = "Important Dates"
     subtitle = "Be prepared!"
-    endpoint = "Conference"
+    endpoint = "May 16<br>SatRday Conference"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1.jpg"
+      img = "start.png"
       date = "March 1"
-      title = "Open Registration"
+      title = "開放報名"
       description = "Free"
 
     #[[params.about.events]]
@@ -234,7 +235,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Team section
   [params.team]
-    enable = false
+    enable = true
     # Possibility to center items
     # center = true
     title = "Team"
@@ -270,20 +271,20 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         ["fa-linkedin", "http://linkedin.com/in/amy17519"]
     ]
 
+    [[params.team.members]]
+     img = "angie.jpg"
+     name = "Angie Hsu"
+     position = "Organizer"
+     reportsTo = ""
+     # For bio markdown and even multiline strings are available.
+     social = [
+        ["fa-linkedin", "#"]
+    ]
+
     # [[params.team.members]]
     #  img = "faceholder.png"
     #  name = "Organiser Name 2"
     #  position = "Organiser Position 2"
-    #  social = [
-    #    ["fa-twitter", "#"],
-    #    ["fa-github", "#"],
-    #    ["fa-linkedin", "#"]
-    #  ]
-
-    # [[params.team.members]]
-    #  img = "faceholder.png"
-    #  name = "Organiser Name 3"
-    #  position = "Organiser Position 3"
     #  social = [
     #    ["fa-twitter", "#"],
     #    ["fa-github", "#"],
@@ -303,24 +304,17 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
     [[params.clients]]
-      logo = "envato.jpg"
+      logo = "microsoft.png"
       link = "#"
 
     [[params.clients]]
-      logo = "designmodo.jpg"
+      logo = "rstudio.png"
       link = "#"
 
-    [[params.clients]]
-      logo = "themeforest.jpg"
-      link = "#"
-
-    [[params.clients]]
-      logo = "creative-market.jpg"
-      link = "#"
   
   [params.diversity]
     enable = true
-    title = "Diversity"
+    title = "Code of Conduct"
     bg = true
 
   # Contact section
