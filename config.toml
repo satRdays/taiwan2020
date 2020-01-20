@@ -286,6 +286,10 @@ googleAnalytics = ""
       link = "#"
     
     [[params.clients]]
+      logo = "jumping-rivers.png"
+      link = "https://www.jumpingrivers.com"
+
+    [[params.clients]]
       logo = "rstudio.png"
       link = "#"
 
