@@ -1,6 +1,6 @@
 # Site settings
 baseurl = "https://taiwan2020.satrdays.org/"
-languageCode = "en-us"
+languageCode = "zh-tw"  #"en-us"
 title = "satRday Taiwan"
 theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
 
@@ -100,7 +100,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-laptop"
       title = "Details"
-      description = "2020/05/16 ＠ Tamkang University"
+      description = "2020/05/16 淡江大學 驚聲大樓"
       url = "#"
 
     [[params.services.row.list]]

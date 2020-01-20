@@ -1,12 +1,11 @@
 {{ "<!-- Portfolio Grid Section -->" | safeHTML }}
-<section id="portfolio" {{ if .Site.Params.portfolio.bg }}
-class="bg-light-gray"
-{{ end }}>
+<section id="portfolio" {{ if .Site.Params.portfolio.bg }} class="bg-light-gray" {{ end }}>
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">{{ with .Site.Params.portfolio.title }}{{ . | markdownify }}{{ end }}</h2>
-        <h3 class="section-subheading text-muted">{{ with .Site.Params.portfolio.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+        <h3 class="section-subheading text-muted">
+          {{ with .Site.Params.portfolio.subtitle }}{{ . | markdownify }}{{ end }}</h3>
       </div>
     </div>
     <div class="Talks">
@@ -22,132 +21,140 @@ class="bg-light-gray"
       {{ end }}
       {{ end }}
     </div>
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Schedule</h2>
-          <h4>All talk materials are available on 
-            <a href="https://github.com/satRdays/losangeles/blob/master/2019">Github</a>. 
-          </h4>
-            <table class="table table-bordered">
-            <thead>
-              <tr>
-                <th scope="col">Time</th>
-                <th scope="col">Collins Alumni Conference Room</th>
-                <th scope="col">Time</th>
-                <th scope="col">Tom Davis Founders’ Room</th>
-              </tr>
-            </thead>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Schedule</h2>
+        <h4>All talk materials are available on
+          <a href="https://github.com/satRdays/taiwan2020">Github</a>.
+        </h4>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Time</th>
+              <th scope="col">大會議室</th>
+              <th scope="col">Time</th>
+              <th scope="col">小教室一</th>
+            </tr>
+          </thead>
 
-            <tbody>
-              <tr>
-                <th scope="row">08:00 - 09:00</th>
-                <td colspan="3"> <b> Check-in/Breakfast </b> </td>
-              </tr>
+          <tbody>
+            <tr>
+              <th scope="row">08:00 - 09:00</th>
+              <td colspan="3"> <b> Check-in/Breakfast </b> </td>
+            </tr>
 
-              <tr>
-                <th scope="row">09:00 - 09:10</th>
-                <td> <b> Welcome </b> <br> <i> SatRday LA Organizers</i> </td>
-                <td colspan="2"></td>
-              </tr>
+            <tr>
+              <th scope="row">09:00 - 09:10</th>
+              <td> <b> Welcome </b> <br> <i> SatRday LA Organizers</i> </td>
+              <td colspan="2"></td>
+            </tr>
 
-              <tr>
-                <th scope="row">09:10 - 09:55</th>
-                <td> <b> Keynote: Lifting the Curtain on Machine Learning </b> <br> <i> Norm Matloff</i> </td>
-                <td colspan="2"></td>
-              </tr>
+            <tr>
+              <th scope="row">09:10 - 09:55</th>
+              <td> <b> Keynote: Lifting the Curtain on Machine Learning </b> <br> <i> Norm Matloff</i> </td>
+              <td colspan="2"></td>
+            </tr>
 
-              <tr>
-                <th scope="row">09:55 - 10:40</th>
-                <td> <b> Using Data Science to solve Platform Problems at TrueCar </b> <br> <i> Rachel Shuyan Wang</i></td>
-                <th rowspan="2"> <br> <br> 10:00 - 11:10</th>
-                <td rowspan="2"> <br> <b> Workshop <br> Building an R Package in 45 Minutes </b> <br> <i> David Edison</i> </td>
-              </tr>
+            <tr>
+              <th scope="row">09:55 - 10:40</th>
+              <td> <b> Using Data Science to solve Platform Problems at TrueCar </b> <br> <i> Rachel Shuyan Wang</i>
+              </td>
+              <th rowspan="2"> <br> <br> 10:00 - 11:10</th>
+              <td rowspan="2"> <br> <b> Workshop <br> Building an R Package in 45 Minutes </b> <br> <i> David Edison</i>
+              </td>
+            </tr>
 
-              <tr>
-                <th scope="row">10:40 - 11:10</th>
-                <td> <b> Productionizing R scripts in the cloud </b> <br> <i> Gergely Daróczi</i></td>
-              </tr>
+            <tr>
+              <th scope="row">10:40 - 11:10</th>
+              <td> <b> Productionizing R scripts in the cloud </b> <br> <i> Gergely Daróczi</i></td>
+            </tr>
 
-              <tr>
-                <th scope="row">11:10 - 11:20</th>
-                <td colspan="3"> <b> Break </b> </td>
-              </tr>
+            <tr>
+              <th scope="row">11:10 - 11:20</th>
+              <td colspan="3"> <b> Break </b> </td>
+            </tr>
 
-              <tr>
-                <th scope="row">11:20 - 12:05</th>
-                <td> <b> Better Research Planning Through Simulation </b> <br> <i> Neal Fultz</i></td>
-                <th rowspan="2"> <br> <br> 11:20 - 12:35</th>
-                <td rowspan="2"> <br> <b> Workshop <br> Predictive Analytics in R and Prediction Error </b> <br> <i> Alfonso Berumen </i> </td>
-              </tr>
+            <tr>
+              <th scope="row">11:20 - 12:05</th>
+              <td> <b> Better Research Planning Through Simulation </b> <br> <i> Neal Fultz</i></td>
+              <th rowspan="2"> <br> <br> 11:20 - 12:35</th>
+              <td rowspan="2"> <br> <b> Workshop <br> Predictive Analytics in R and Prediction Error </b> <br> <i>
+                  Alfonso Berumen </i> </td>
+            </tr>
 
-              <tr>
-                <th scope="row">12:05 - 12:35</th>
-                <td> <b> Performing Data Science: A Musician's Perspective </b> <br> <i> Leondra James</i></td>
-              </tr>
+            <tr>
+              <th scope="row">12:05 - 12:35</th>
+              <td> <b> Performing Data Science: A Musician's Perspective </b> <br> <i> Leondra James</i></td>
+            </tr>
 
-              <tr>
-                <th scope="row">12:35 - 01:30</th>
-                <td colspan="3"> <b> Lunch </b> </td>
-              </tr>
+            <tr>
+              <th scope="row">12:35 - 01:30</th>
+              <td colspan="3"> <b> Lunch </b> </td>
+            </tr>
 
-              <tr>
-                <th scope="row">01:30 - 02:15</th>
-                <td> <b> Future: Friendly Parallel and Distributed Processing in R for Everyone </b> <br> <i> Henrik Bengtsson </i></td>
-                <th rowspan="2"> <br> <br> 01:30 - 03:00</th>
-                <td rowspan="2"> <br> <b> Workshop <br> Text Classification in tidymodels </b> <br> <i> Emil Hvitfeldt </i> </td>
-              </tr>
+            <tr>
+              <th scope="row">01:30 - 02:15</th>
+              <td> <b> Future: Friendly Parallel and Distributed Processing in R for Everyone </b> <br> <i> Henrik
+                  Bengtsson </i></td>
+              <th rowspan="2"> <br> <br> 01:30 - 03:00</th>
+              <td rowspan="2"> <br> <b> Workshop <br> Text Classification in tidymodels </b> <br> <i> Emil Hvitfeldt
+                </i> </td>
+            </tr>
 
-              <tr>
-                <th scope="row">02:15 - 03:00</th>
-                <td> <b> From correlation to causation: measuring ad effectiveness at scale </b> <br> <i> Tamara Greasby </i></td>
-              </tr>
+            <tr>
+              <th scope="row">02:15 - 03:00</th>
+              <td> <b> From correlation to causation: measuring ad effectiveness at scale </b> <br> <i> Tamara Greasby
+                </i></td>
+            </tr>
 
-              <tr>
-                <th scope="row">03:00 - 03:30</th>
-                <td colspan="3"> <b> Coffee Break </b> </td>
-              </tr>
+            <tr>
+              <th scope="row">03:00 - 03:30</th>
+              <td colspan="3"> <b> Coffee Break </b> </td>
+            </tr>
 
-              <tr>
-                <th scope="row">03:30 - 04:00</th>
-                <td> <b> Shiny: A GUI for the Tidyverse </b> <br> <i> Carl Ganz </i></td>
-                <td colspan="2"><b> Multiple Response (Multivariate) Regression models in R  </b> <br> <i> Cesar Acosta-Mejia, Qile Wang</i> </td>
-              </tr>
+            <tr>
+              <th scope="row">03:30 - 04:00</th>
+              <td> <b> Shiny: A GUI for the Tidyverse </b> <br> <i> Carl Ganz </i></td>
+              <td colspan="2"><b> Multiple Response (Multivariate) Regression models in R </b> <br> <i> Cesar
+                  Acosta-Mejia, Qile Wang</i> </td>
+            </tr>
 
-              <tr>
-                <th scope="row">04:00 - 04:45</th>
-                <td> <b> Keynote: Scalable Automatic Machine Learning with H2O </b> <br> <i> Erin LeDell</i> </td>
-                <td colspan="2"></td>
-              </tr>
+            <tr>
+              <th scope="row">04:00 - 04:45</th>
+              <td> <b> Keynote: Scalable Automatic Machine Learning with H2O </b> <br> <i> Erin LeDell</i> </td>
+              <td colspan="2"></td>
+            </tr>
 
-              <tr>
-                <th scope="row">04:45 - 05:15</th>
-                <td> <b> 5min Lightning Talk x 6 </b>
-                </td>
-                <td colspan="2"></td>
-              </tr>
+            <tr>
+              <th scope="row">04:45 - 05:15</th>
+              <td> <b> 5min Lightning Talk x 6 </b>
+              </td>
+              <td colspan="2"></td>
+            </tr>
 
-              <tr>
-                <th scope="row">05:15 - 05:45</th>
-                <td> <b> Pipes or Brackets: <br> The Similarities and Differences b/w Dplyr and Data.Table and the Power of Un </b> <br> <i> Jeremy Guinta, Amy Linehan </i> </td>
-                <td colspan="2"></td>
-              </tr>
+            <tr>
+              <th scope="row">05:15 - 05:45</th>
+              <td> <b> Pipes or Brackets: <br> The Similarities and Differences b/w Dplyr and Data.Table and the Power
+                  of Un </b> <br> <i> Jeremy Guinta, Amy Linehan </i> </td>
+              <td colspan="2"></td>
+            </tr>
 
-              <tr>
-                <th scope="row">05:45 - 06:00</th>
-                <td> <b> Closing Remark </b> <br> <i> SatRday LA Organizers</i> </td>
-                <td colspan="2"></td>
-              </tr>
+            <tr>
+              <th scope="row">05:45 - 06:00</th>
+              <td> <b> Closing Remark </b> <br> <i> SatRday LA Organizers</i> </td>
+              <td colspan="2"></td>
+            </tr>
 
-              <tr>
-                <th scope="row">06:00 - 08:00</th>
-                <td colspan="3"> <b> Social Event </b> </td>
-              </tr>
+            <tr>
+              <th scope="row">06:00 - 08:00</th>
+              <td colspan="3"> <b> Social Event </b> </td>
+            </tr>
 
-            </tbody>
-          </table>
+          </tbody>
+        </table>
 
 
-        </div>
       </div>
+    </div>
   </div>
 </section>
