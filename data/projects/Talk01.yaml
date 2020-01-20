@@ -1,20 +1,13 @@
 # modalID: 1
-title: "Norm Matloff"
+title: "何宗武 教授"
 # subtitle: "ffff"
 # date: 1970-01-01
 # startsAt: 00:00
 # endsAt: 00:01
 # img: norm.jpeg
-preview: norm.jpeg
-client: University of California, Davis
-clientLink: "http://heather.cs.ucdavis.edu/matloff.html"
+preview: person.png
+client: 臺師大全球經營與策略研究所
+clientLink: ""
 # category: Category 1
-description: "[Personal Page](http://heather.cs.ucdavis.edu/matloff.html) | [Twitter](https://twitter.com/matloff) <br>
-Dr. Norm Matloff is a professor of computer science at the University of California at Davis, 
-and was formerly a professor of statistics at that university. He is a former database software developer 
-in Silicon Valley, and has been a statistical consultant for firms such as the Kaiser Permanente Health 
-Plan. He was born and raised in the Los Angeles area, and has a PhD in pure mathematics from UCLA, 
-specializing in probability/functional analysis and statistics. Dr. Matloff's book, Statistical Regression 
-and Classification: from Linear Models to Machine Learning (CRC, 2017) was the recipient of the 2017 Eric 
-Ziegal Award for Best Book Reviewed in 2017, Technometrics. He was also a keynote speaker at useR! 2017."
+description: ""
 talk: true

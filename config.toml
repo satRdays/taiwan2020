@@ -51,7 +51,7 @@ googleAnalytics = ""
     logo = "logo.png"
     services = "About"
     portfolio = "Talks"
-    eventbrite = "Register"
+    #eventbrite = "Register"
     schedule = "Schedule"
     team = "Team"
     contact = "Get involved"
@@ -132,7 +132,7 @@ googleAnalytics = ""
   [params.tito]
     enable = false
     title = "Register"
-    bg = true
+    bg = false
     accountevent = "ultimateconf/2013"
       # Go to https://ti.to/ and find the account (under your user) and event pair string e.g. "cardiff-satrday/2018"
       # include botht the account and event in a string, seperated by /, with no spaces
@@ -140,7 +140,7 @@ googleAnalytics = ""
   [params.eventbrite]
     enable = false
     title = "Register"
-    bg = true
+    bg = false
     eid = "32416000129" 
       # Go to https://www.eventbrite.co.uk/support/articles/en_US/How_To/how-to-sell-eventbrite-tickets-registrations-on-your-website-using-embeddable-widgets?lg=en_GB 
       # Follow instructions to discover your 'Website Integration' embeddable iframe
@@ -150,7 +150,7 @@ googleAnalytics = ""
   [params.tickettailor]
     enable = false
     title = "Register"
-    bg = true
+    bg = false
     eventviewid = "162430"
       # Go to www.tickettailor.com and open your event page
       # Note the number at the end of the url e.g. https://www.tickettailor.com/event/view/id/162430
