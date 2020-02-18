@@ -283,15 +283,15 @@ googleAnalytics = ""
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
     [[params.clients_organizer]]
-      logo = "rladies.png"
+      logo = "rladies_small.png"
       link = "https://rladiestaipei.github.io/R-Ladies-Taipei/"
     
     [[params.clients_organizer]]
-      logo = "mldm.png"
+      logo = "mldm_small.png"
       link = "https://www.meetup.com/Taiwan-R/"
     
     [[params.clients_organizer]]
-      logo = "tku_stat.png"
+      logo = "tku_stat_small.png"
       link = "http://www.stat.tku.edu.tw/news/news.php?class=101"
 
 
