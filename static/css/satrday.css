@@ -557,14 +557,14 @@ header .intro-text .intro-heading {
 header {
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #2165B6;
+    /*background-color: #2165B6;*/
+    background-color: transparent;
     background-position: bottom right;
 }
 
 header .intro-text .intro-lead-in {
     font-size: 3.2rem;
     font-style: normal;
-    background-color: transparent;
     color: #2165B6;
     text-align: left;
 }
