@@ -562,8 +562,8 @@ header {
 }
 
 header .intro-text .intro-lead-in {
-    font-size: 4rem;
-    font-style: normal;
+    font-size: 3.2rem;
+    /*font-style: normal;*/
     color: #2165B6;
     text-align: left;
 }
@@ -600,7 +600,7 @@ canvas {
 
     header .intro-text .intro-lead-in {
         font-size: 3.2rem;
-        font-style: normal;
+        /*font-style: normal;*/
         text-align: left;
         color: #2165B6;
     }
