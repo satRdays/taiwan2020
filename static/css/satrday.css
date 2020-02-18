@@ -260,7 +260,7 @@ staticheader .intro-text .intro-lead-in {
     /*font-family: Roboto, Helvetica, Arial, sans-serif;*/
     font-family: Roboto;
     font-size: 22px;
-    font-style: italic;
+    /*font-style: italic;*/
     line-height: 22px;
 }
 
@@ -564,6 +564,8 @@ header {
 header .intro-text .intro-lead-in {
     font-size: 3.2rem;
     font-style: normal;
+    background-color: transparent;
+    color: #2165B6;
     text-align: left;
 }
 
