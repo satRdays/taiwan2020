@@ -73,7 +73,8 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     border-color: #2165B6;
-    background-color: #2165B6;
+    /*background-color: #2165B6;*/
+    background-color: transparent;
     text-transform: none;
     padding: 1rem 2rem;
     font-weight: normal;
