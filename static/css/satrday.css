@@ -594,7 +594,8 @@ canvas {
     header {
         background-size: contain;
         background-repeat: no-repeat;
-        background-color: #2165B6;
+        /*background-color: #2165B6;*/
+        background-color: transparent;
         background-position: bottom right;
     }
 
@@ -620,7 +621,8 @@ canvas {
     header {
         background-size: contain;
         background-repeat: no-repeat;
-        background-color: #2165B6;
+        /*background-color: #2165B6;*/
+        background-color: transparent;
         background-position: bottom right;
         padding-bottom: 8rem;
     }
