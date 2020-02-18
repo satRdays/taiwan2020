@@ -306,7 +306,7 @@ static .staticbody {
 /* Contact section */
 
 section#contact {
-    background-color: v
+    background-color: #2165B6;
 }
 
 
@@ -562,7 +562,7 @@ header {
 }
 
 header .intro-text .intro-lead-in {
-    font-size: 3.2rem;
+    font-size: 4rem;
     font-style: normal;
     color: #2165B6;
     text-align: left;
@@ -576,7 +576,7 @@ header .intro-text {
 
 header .intro-text .intro-heading {
     text-transform: none;
-    font-size: 3rem;
+    font-size: 4rem;
     line-height: 1.2;
     text-align: left;
     z-index: 10;
@@ -602,6 +602,7 @@ canvas {
         font-size: 3.2rem;
         font-style: normal;
         text-align: left;
+        color: #2165B6;
     }
 
     header .intro-text {
@@ -610,9 +611,10 @@ canvas {
 
     header .intro-text .intro-heading {
         text-transform: none;
-        font-size: 5rem;
+        font-size: 4rem;
         line-height: 1.2;
         text-align: left;
+        color: #2165B6;
     }
 }
 
@@ -628,12 +630,14 @@ canvas {
     header .intro-text .intro-lead-in {
         font-size: 1.6rem;
         margin-bottom: 1rem;
+        color: #2165B6;
     }
 
     header .intro-text .intro-heading {
         font-size: 2.2rem;
         line-height: 1.6;
         margin-bottom: 1rem;
+        color: #2165B6;
     }
 
     header .intro-text a .btn {
