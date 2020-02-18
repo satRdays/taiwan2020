@@ -276,6 +276,30 @@ googleAnalytics = ""
     # Possibility to center items
     # center = true
     # Optional client title specifying the involvement
+    title = "Organizer"
+    bg = true
+
+    # All the clients' logos are stored under 'static/img/logos'.
+    # Replace them with your clients's logos.
+    # Suggestion: .svg in the size of 280px*80px looks good
+    [[params.clients]]
+      logo = "rladies.png"
+      link = "https://rladiestaipei.github.io/R-Ladies-Taipei/"
+
+    [[params.clients]]
+      logo = "mldm.png"
+      link = "https://www.meetup.com/Taiwan-R/"
+
+    [[params.clients]]
+      logo = "tku_stat.png"
+      link = "http://www.stat.tku.edu.tw/main.php"
+
+  # Client section
+  [params.clients_list]
+    enable = true
+    # Possibility to center items
+    # center = true
+    # Optional client title specifying the involvement
     title = "Sponsors"
     bg = true
 
@@ -290,9 +314,6 @@ googleAnalytics = ""
       logo = "jumping-rivers.png"
       link = "https://www.jumpingrivers.com"
 
-    [[params.clients]]
-      logo = "rstudio.png"
-      link = "#"
 
   [params.diversity]
     enable = true
