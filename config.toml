@@ -270,6 +270,31 @@ googleAnalytics = ""
         ["fa-linkedin", "#"]
       ]
 
+  # Organizer section
+  [params.clients_organizer_list]
+    enable = true
+    # Possibility to center items
+    # center = true
+    # Optional client title specifying the involvement
+    title = "Organizer"
+    bg = true
+
+    # All the clients' logos are stored under 'static/img/logos'.
+    # Replace them with your clients's logos.
+    # Suggestion: .svg in the size of 280px*80px looks good
+    [[params.clients_organizer]]
+      logo = "rladies.png"
+      link = "https://rladiestaipei.github.io/R-Ladies-Taipei/"
+    
+    [[params.clients_organizer]]
+      logo = "mldm.png"
+      link = "https://www.meetup.com/Taiwan-R/"
+    
+    [[params.clients_organizer]]
+      logo = "tku_stat.png"
+      link = "http://www.stat.tku.edu.tw/news/news.php?class=101"
+
+
   # Client section
   [params.clients_list]
     enable = true
