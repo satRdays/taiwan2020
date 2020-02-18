@@ -113,7 +113,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: Roboto, Arial, sans-serif ;
+    /*font-family: Roboto, Arial, sans-serif ;*/
+    font-family: Roboto;
     color: #2165B6;
     text-transform: uppercase;
 }
@@ -161,7 +162,8 @@ ul.social-buttons li a:active {
 
 body {
     webkit-tap-highlight-color: #2165B6;
-    font-family: Roboto, Helvetica, Arial, sans-serif;
+    /*font-family: Roboto, Helvetica, Arial, sans-serif;*/
+    font-family: Roboto;
 }
 
 
@@ -255,7 +257,8 @@ staticheader .intro-text {
 
 staticheader .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: Roboto, Helvetica, Arial, sans-serif;
+    /*font-family: Roboto, Helvetica, Arial, sans-serif;*/
+    font-family: Roboto;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -264,7 +267,8 @@ staticheader .intro-text .intro-lead-in {
 staticheader .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: Roboto, Helvetica, Arial, sans-serif;
+    /*font-family: Roboto, Helvetica, Arial, sans-serif;*/
+    font-family: Roboto;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -278,7 +282,8 @@ staticheader .intro-text {
 staticheader .intro-text .intro-heading {
     margin-bottom: 50px;
     text-transform: uppercase;
-    font-family: Roboto, Helvetica, Arial, sans-serif;
+    /*font-family: Roboto, Helvetica, Arial, sans-serif;*/
+    font-family: Roboto;
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;
@@ -369,6 +374,7 @@ p.ps {
     .Talk {
         flex: 0 1 96%;
     }
+
     .Talk-image {
         width: 120px;
     }
@@ -577,9 +583,9 @@ header .intro-text .intro-heading {
 }
 
 canvas {
-    position:absolute;
-    top:0;
-    left:0;   
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 @media(max-width: 1024px) {
@@ -595,9 +601,11 @@ canvas {
         font-style: normal;
         text-align: left;
     }
+
     header .intro-text {
         text-align: left;
     }
+
     header .intro-text .intro-heading {
         text-transform: none;
         font-size: 5rem;
@@ -614,15 +622,18 @@ canvas {
         background-position: bottom right;
         padding-bottom: 8rem;
     }
+
     header .intro-text .intro-lead-in {
         font-size: 1.6rem;
         margin-bottom: 1rem;
     }
+
     header .intro-text .intro-heading {
         font-size: 2.2rem;
         line-height: 1.6;
         margin-bottom: 1rem;
     }
+
     header .intro-text a .btn {
         padding: 15px 50px;
     }

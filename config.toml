@@ -52,7 +52,8 @@ googleAnalytics = ""
     services = "About"
     portfolio = "Talks"
     #eventbrite = "Register"
-    schedule = "Schedule"
+    #schedule = "Schedule"
+    about = 'Dates'
     team = "Team"
     contact = "Get involved"
 
@@ -77,7 +78,7 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "satRday Taiwan | May 16, 2020"
+    title = "SatRday Taiwan | May 16, 2020"
     subtitle = "A conference for users of R Language"
     bg = true
     buttonText = "Tell me more"
@@ -376,7 +377,7 @@ googleAnalytics = ""
 
     [[params.footer.social]]
       icon = "fa-envelope"
-      link = "mailto:satrdays.losangeles@gmail.com"
+      link = "mailto:rladies.taipei@gmail.com"
       title = "GitHub"
 
     [[params.footer.quicklinks]]
