@@ -44,8 +44,7 @@ a {
 
 .btn-primary {
     border-color: #2165B6;
-    /*background-color: #2165B6;*/
-    background-color: transparent;
+    background-color: #2165B6;
 }
 
 .btn-primary.disabled,
@@ -73,8 +72,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     border-color: #2165B6;
-    /*background-color: #2165B6;*/
-    background-color: transparent;
+    background-color: #2165B6;
     text-transform: none;
     padding: 1rem 2rem;
     font-weight: normal;
@@ -263,7 +261,6 @@ staticheader .intro-text .intro-lead-in {
     font-family: sans-serif;
     font-size: 22px;
     /*font-style: italic;*/
-    background-color: transparent;
     line-height: 22px;
 }
 
@@ -560,8 +557,7 @@ header .intro-text .intro-heading {
 header {
     background-size: cover;
     background-repeat: no-repeat;
-    /*background-color: #2165B6;*/
-    background-color: transparent;
+    background-color: #2165B6;
     background-position: bottom right;
 }
 
@@ -597,8 +593,7 @@ canvas {
     header {
         background-size: contain;
         background-repeat: no-repeat;
-        /*background-color: #2165B6;*/
-        background-color: transparent;
+        background-color: #2165B6;
         background-position: bottom right;
     }
 
@@ -624,8 +619,7 @@ canvas {
     header {
         background-size: contain;
         background-repeat: no-repeat;
-        /*background-color: #2165B6;*/
-        background-color: transparent;
+        background-color: #2165B6;
         background-position: bottom right;
         padding-bottom: 8rem;
     }
