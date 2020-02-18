@@ -44,7 +44,8 @@ a {
 
 .btn-primary {
     border-color: #2165B6;
-    background-color: #2165B6;
+    /*background-color: #2165B6;*/
+    background-color: transparent;
 }
 
 .btn-primary.disabled,
