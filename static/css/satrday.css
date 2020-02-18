@@ -260,9 +260,10 @@ staticheader .intro-text {
 staticheader .intro-text .intro-lead-in {
     margin-bottom: 25px;
     /*font-family: Roboto, Helvetica, Arial, sans-serif;*/
-    font-family: Roboto;
+    font-family: sans-serif;
     font-size: 22px;
     /*font-style: italic;*/
+    background-color: transparent;
     line-height: 22px;
 }
 
