@@ -194,16 +194,34 @@ googleAnalytics = ""
     enable = true
     title = "Important Dates"
     subtitle = "Be prepared!"
-    endpoint = "May 16<br>The<br>SatRday"
+    endpoint = "Conference" #"May 16<br>The<br>SatRday"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "start.png"
-      date = "March 1"
-      title = "開放報名"
+      img = "date_1.png"
+      date = "Oct 17, 2019"
+      title = "Call For Speakers"
+      description = ""
+
+    [[params.about.events]]
+      img = "date_2.png"
+      date = "Mar 16, 2020"
+      title = "Open Registration"
       description = "免費(收取報名押金，並退回扣除手續費後的押金)"
+
+    [[params.about.events]]
+      img = "date_3.png"
+      date = "May 01, 2020"
+      title = "Final Talk Schedule"
+      description = ""
+
+    [[params.about.events]]
+      img = "satrday-logo.png"
+      date = "May 16, 2020"
+      title = "SatRdays Taiwan!"
+      description = ""
 
     #[[params.about.events]]
     #  img = "oops.png"
@@ -244,7 +262,7 @@ googleAnalytics = ""
     [[params.team.members]]
       img = "kristen.jpg"
       name = "Kristen Chan"
-      position = "Organizer"
+      position = "Chief Organizer"
       reportsTo = ""
       # For bio markdown and even multiline strings are available.
       social = [
