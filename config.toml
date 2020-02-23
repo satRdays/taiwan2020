@@ -240,7 +240,6 @@ googleAnalytics = ""
     enable = true
     title = "REGISTER"
     bg = true
-    subtitle = "You can buy tickets via KKTIX below."
   
   # Location section
   [params.location]
