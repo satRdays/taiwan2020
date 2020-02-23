@@ -194,7 +194,7 @@ googleAnalytics = ""
     enable = true
     title = "Important Dates"
     subtitle = "Be prepared!"
-    endpoint = "Conference" #"May 16<br>The<br>SatRday"
+    #endpoint = "Conference" #"May 16<br>The<br>SatRday"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
