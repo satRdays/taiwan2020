@@ -235,7 +235,12 @@ googleAnalytics = ""
     #  title = "Final Talk Schedule"
     #  description = "Wow I am so glad I bought tickets early!"
 
-
+  # Ticket section
+  [params.ticket]
+    enable = true
+    title = "REGISTER"
+    bg = true
+    subtitle = "You can buy tickets via KKTIX below."
   
   # Location section
   [params.location]
