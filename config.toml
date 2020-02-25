@@ -1,4 +1,4 @@
-# Site settings
+5# Site settings
 baseurl = "https://taiwan2020.satrdays.org/"
 languageCode = "zh-tw"  #"en-us"
 title = "satRday Taiwan"
@@ -288,6 +288,22 @@ googleAnalytics = ""
     [[params.team.members]]
       img = "angie.jpg"
       name = "Angie Hsu"
+      position = "Organizer"
+      social = [
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "ning.jpg"
+      name = "Ning"
+      position = "Organizer"
+      social = [
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "money.jpg"
+      name = "Money "
       position = "Organizer"
       social = [
         ["fa-linkedin", "#"]
