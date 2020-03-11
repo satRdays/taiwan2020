@@ -207,19 +207,19 @@ googleAnalytics = ""
 
     [[params.about.events]]
       img = "date_2.png"
-      date = "Mar 16, 2020"
+      date = "Aug 17, 2020"
       title = "Open Registration"
       description = "免費(收取報名押金，並退回扣除手續費後的押金)"
 
     [[params.about.events]]
       img = "date_3.png"
-      date = "May 01, 2020"
+      date = "Sep 01, 2020"
       title = "Final Talk Schedule"
       description = ""
 
     [[params.about.events]]
       img = "satrday-logo.png"
-      date = "May 16, 2020"
+      date = "Oct 17, 2020"
       title = "SatRdays Taiwan!"
       description = ""
 
