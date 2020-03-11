@@ -78,7 +78,7 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "SatRday Taiwan | May 16, 2020"
+    title = "SatRday Taiwan | October 17, 2020"
     subtitle = "A conference for users of R Language"
     bg = true
     buttonText = "Tell me more"
@@ -101,7 +101,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-laptop"
       title = "Details"
-      description = "2020/05/16 淡江大學 驚聲大樓"
+      description = "2020/10/17 淡江大學 驚聲大樓"
       url = "#"
 
     [[params.services.row.list]]
@@ -353,6 +353,14 @@ googleAnalytics = ""
     [[params.clients]]
       logo = "jumping-rivers.png"
       link = "https://www.jumpingrivers.com"
+    
+    [[params.clients]]
+      logo = "rstudio.png"
+      link = "https://rstudio.com/"
+    
+    [[params.clients]]
+      logo = "rconsortium.png"
+      link = "https://www.r-consortium.org/"
 
 
   [params.diversity]
