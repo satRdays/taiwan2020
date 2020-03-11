@@ -293,21 +293,6 @@ googleAnalytics = ""
         ["fa-linkedin", "#"]
       ]
 
-    [[params.team.members]]
-      img = "ning.jpg"
-      name = "Ning"
-      position = "Organizer"
-      social = [
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.team.members]]
-      img = "money.jpg"
-      name = "Money "
-      position = "Organizer"
-      social = [
-        ["fa-linkedin", "#"]
-      ]
 
   # Organizer section
   [params.clients_organizer_list]
