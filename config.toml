@@ -298,7 +298,7 @@ googleAnalytics = ""
       name = "Ning"
       position = "Organizer"
       social = [
-        ["fa-slideshare", "https://www.slideshare.net/chiehningchen?fbclid=IwAR0R8qD0HKI115Nf7ShjzVCOq7-zBS0BX491aIwKGDQtBR9xcSUpnU_BxOg"]
+        ["fa-slideshare", "https://www.slideshare.net/chiehningchen?fbclid=IwAR0R8qD0HKI115Nf7ShjzVCOq7-zBS0BX491aIwKGDQtBR9xcSUpnU_BxOg"],
         ["fa-medium", "https://medium.com/@ningchencontact"]
       ]
 
