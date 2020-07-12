@@ -1,13 +1,13 @@
 # modalID: 1
-title: "Yihui Xie"
+title: "謝益輝"
 # subtitle: "ffff"
 # date: 1970-01-01
 # startsAt: 00:00
 # endsAt: 00:01
 # img: norm.jpeg
 preview: person.png
-client: Rstusio
-clientLink: ""
+client: RStudio, PBC
+clientLink: "https://yihui.org"
 # category: Category 1
 description: ""
 #description: "[Personal Page](http://stat.berkeley.edu/~ledell) | [Twitter](https://twitter.com/ledell) <br>
