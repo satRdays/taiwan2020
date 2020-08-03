@@ -118,8 +118,8 @@ googleAnalytics = ""
 
     [[params.services.row.list]]
       icon = "fa-money"
-      title = "Affordable"
-      description = "免費(收取報名押金，並退回扣除手續費後的押金)"
+      title = "Gratuit"
+      description = "免費"
       url = "#"
 
     [[params.services.row.list]]
@@ -142,8 +142,8 @@ googleAnalytics = ""
     enable = false
     title = "Register"
     bg = false
-    eid = "32416000129" 
-      # Go to https://www.eventbrite.co.uk/support/articles/en_US/How_To/how-to-sell-eventbrite-tickets-registrations-on-your-website-using-embeddable-widgets?lg=en_GB 
+    eid = "32416000129"
+      # Go to https://www.eventbrite.co.uk/support/articles/en_US/How_To/how-to-sell-eventbrite-tickets-registrations-on-your-website-using-embeddable-widgets?lg=en_GB
       # Follow instructions to discover your 'Website Integration' embeddable iframe
       # Take ONLY the numeric string between "eid=" and "&ref=etckt"
       # Supply this string as the value to `eid` above
@@ -156,7 +156,7 @@ googleAnalytics = ""
       # Go to www.tickettailor.com and open your event page
       # Note the number at the end of the url e.g. https://www.tickettailor.com/event/view/id/162430
       # Supply the number ONLY in `eventviewid`
-  
+
   # Call for papers section
   [params.callforpapers]
     enable = false
@@ -209,12 +209,12 @@ googleAnalytics = ""
       img = "date_2.png"
       date = "Aug 17, 2020"
       title = "Open Registration"
-      description = "免費(收取報名押金，並退回扣除手續費後的押金)"
+      description = "Free"
 
     [[params.about.events]]
       img = "date_3.png"
-      date = "Sep 01, 2020"
-      title = "Final Talk Schedule"
+      date = "Sep 30, 2020"
+      title = "Close Registration"
       description = ""
 
     [[params.about.events]]
@@ -241,11 +241,11 @@ googleAnalytics = ""
     title = "REGISTER"
     subtitle = "You can buy tickets via KKTIX below."
     bg = true
-  
+
   # Location section
   [params.location]
     enable = true
-    title = "Location title"
+    title = "Venue"
     bg = true
     iframesrc = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.863827216273!2d121.44511211487061!3d25.174075438816168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aff8c1544bdb%3A0x1dcf4f494b3362b!2sTamkang%20University!5e0!3m2!1sen!2stw!4v1577937288324!5m2!1sen!2stw"
 
@@ -259,7 +259,7 @@ googleAnalytics = ""
     bg = false
     description = ""
     speakers = "Speakers"
-    
+
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -325,11 +325,11 @@ googleAnalytics = ""
     [[params.clients_organizer]]
       logo = "rladies.png"
       link = "https://rladiestaipei.github.io/R-Ladies-Taipei/"
-    
+
     [[params.clients_organizer]]
       logo = "mldm.png"
       link = "https://www.meetup.com/Taiwan-R/"
-    
+
     [[params.clients_organizer]]
       logo = "tku_stat.png"
       link = "http://www.stat.tku.edu.tw/news/news.php?class=101"
@@ -350,15 +350,15 @@ googleAnalytics = ""
     [[params.clients]]
       logo = "microsoft.png"
       link = "#"
-    
-    [[params.clients]]
-      logo = "jumping-rivers.png"
-      link = "https://www.jumpingrivers.com"
-    
+
+    #[[params.clients]]
+    #  logo = "jumping-rivers.png"
+    #  link = "https://www.jumpingrivers.com"
+
     [[params.clients]]
       logo = "rstudio.png"
       link = "https://rstudio.com/"
-    
+
     [[params.clients]]
       logo = "rconsortium.png"
       link = "https://www.r-consortium.org/"
