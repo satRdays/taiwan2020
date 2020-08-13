@@ -78,7 +78,7 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "SatRday Taiwan 2020 | October 17"
+    title = "satRday Taiwan 2020 | October 17"
     subtitle = "A conference for users of R Language"
     bg = true
     buttonText = "Tell me more"
@@ -95,7 +95,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-clock-o"
       title = "What's SatRday"
-      description = "R-focused Conference on R and its applications"
+      description = "R-focused conference on R and its applications"
       url = "#"
 
     [[params.services.row.list]]
@@ -107,25 +107,25 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
       title = "Learning"
-      description = "Learn from your Peers and Experienced Professionals"
+      description = "Learn from your peers and experienced professionals"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-users"
       title = "Community"
-      description = "R-Ladies Taipei / Taiwan R User Group"
+      description = "R-Ladies Taipei"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-money"
       title = "Gratuit"
-      description = "免費"
+      description = "Free"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-universal-access"
       title = "Accessible"
-      description = "Inclusive, Supportive and Respectful Environment"
+      description = "Inclusive, supportive and respectful environment"
       url = "#"
 
   # Register section
@@ -168,7 +168,7 @@ googleAnalytics = ""
 
   # Talk [Portfolio] section
   [params.portfolio]
-    enable = true
+    enable = false
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
@@ -220,7 +220,7 @@ googleAnalytics = ""
     [[params.about.events]]
       img = "satrday-logo.png"
       date = "Oct 17, 2020"
-      title = "SatRdays Taiwan!"
+      title = "satRday taiwan!"
       description = ""
 
     #[[params.about.events]]
@@ -348,12 +348,12 @@ googleAnalytics = ""
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
     [[params.clients]]
+      logo = "tku.jpg"
+      link = "https://www.tku.edu.tw/"
+
+    [[params.clients]]
       logo = "microsoft.png"
       link = "#"
-
-    #[[params.clients]]
-    #  logo = "jumping-rivers.png"
-    #  link = "https://www.jumpingrivers.com"
 
     [[params.clients]]
       logo = "rstudio.png"
