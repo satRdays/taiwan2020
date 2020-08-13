@@ -113,7 +113,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-users"
       title = "Community"
-      description = "R-Ladies Taipei"
+      description = "R-Ladies Taipei / Taiwan R User Group"
       url = "#"
 
     [[params.services.row.list]]
@@ -339,7 +339,7 @@ googleAnalytics = ""
   [params.clients_list]
     enable = true
     # Possibility to center items
-    # center = true
+    center = true
     # Optional client title specifying the involvement
     title = "Sponsors"
     bg = true
