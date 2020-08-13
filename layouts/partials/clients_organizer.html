@@ -7,13 +7,8 @@
           {{ with .Site.Params.clients_organizer_list.title }}{{ . | markdownify }}{{ end }}</h2>
       </div>
     </div>
-    <!--
     <div
       class="row flexbox{{ if .Site.Params.clients_organizer_list.center }} flexbox-center{{ end }} justify-content-around">
-    -->
-    <div
-      class="row flexbox{{ if .Site.Params.clients_organizer_list.center }} flexbox-center{{ end }}">
-
       {{ range .Site.Params.clients_organizer }}
       <div class="col-md-3 col-sm-6 col text-center">
         {{ $url := printf "img/logos/%s" .logo }}
@@ -26,7 +21,6 @@
         {{ end }}
       </div>
       {{ end }}
-
     </div>
   </div>
 </aside>
