@@ -276,6 +276,14 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
+      img = "wen_yang.jpg"
+      name = "Wen Yang"
+      position = "Organizer"
+      reportsTo = ""
+      # For bio markdown and even multiline strings are available.
+
+
+    [[params.team.members]]
       img = "amy.jpg"
       name = "Amy Tzu-Yu Chen"
       position = "Organizer"
