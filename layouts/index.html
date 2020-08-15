@@ -33,6 +33,10 @@
   {{ partial "keynote.html" . }}
   {{ end }}
 
+  {{ if .Site.Params.workshop.enable }}
+  {{ partial "workshop.html" . }}
+  {{ end }}
+
   {{ if .Site.Params.portfolio.enable }}
   {{ partial "portfolio.html" . }}
   {{ end }}
