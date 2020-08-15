@@ -29,6 +29,10 @@
   {{ partial "callforpapers.html" . }}
   {{ end }}
 
+  {{ if .Site.Params.keynote.enable }}
+  {{ partial "keynote.html" . }}
+  {{ end }}
+
   {{ if .Site.Params.portfolio.enable }}
   {{ partial "portfolio.html" . }}
   {{ end }}
