@@ -286,7 +286,7 @@ googleAnalytics = ""
       # For bio markdown and even multiline strings are available.
       social = [
         ["fa-github", "https://github.com/kristenchan"],
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "https://www.linkedin.com/in/kristen-chan/"]
       ]
 
     [[params.team.members]]
@@ -311,9 +311,9 @@ googleAnalytics = ""
       img = "angie.jpg"
       name = "Angie Hsu"
       position = "Organizer"
-      social = [
-        ["fa-linkedin", "#"]
-      ]
+      #social = [
+      #  ["fa-linkedin", "#"]
+      #]
 
     [[params.team.members]]
       img = "ning.jpg"
@@ -328,9 +328,9 @@ googleAnalytics = ""
       img = "money.jpg"
       name = "Money"
       position = "Organizer"
-      social = [
-        ["fa-linkedin", "#"]
-      ]
+      #social = [
+      #  ["fa-linkedin", "#"]
+      #]
 
   # Organizer section
   [params.clients_organizer_list]
