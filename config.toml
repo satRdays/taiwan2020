@@ -166,6 +166,13 @@ googleAnalytics = ""
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
     dates = "Jan 10 - Feb 01, 2019"
 
+  # Keynote Speakers & Workshop section
+  [params.keynote]
+    enable = true
+    title = "Keynote Speakers" 
+    subtitle = ""
+    bg = true
+
   # Talk [Portfolio] section
   [params.portfolio]
     enable = true
@@ -185,7 +192,7 @@ googleAnalytics = ""
 
   # Schedule section
   [params.schedule]
-    enable = true
+    enable = false
     title = "Schedule"
     bg = false
 
