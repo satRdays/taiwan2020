@@ -176,7 +176,7 @@ googleAnalytics = ""
   # Workshop section
   [params.workshop]
     enable = true
-    title = "Workshop" 
+    title = "Workshops" 
     subtitle = ""
     bg = true
 
