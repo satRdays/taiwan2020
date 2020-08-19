@@ -169,14 +169,14 @@ googleAnalytics = ""
   # Keynote Speakers section
   [params.keynote]
     enable = true
-    title = "Keynote Speakers" 
+    title = "Keynote Speakers"
     subtitle = ""
     bg = true
 
   # Workshop section
   [params.workshop]
     enable = true
-    title = "Workshops" 
+    title = "Workshops"
     subtitle = ""
     bg = true
 
@@ -311,9 +311,9 @@ googleAnalytics = ""
       img = "angie.jpg"
       name = "Angie Hsu"
       position = "Organizer"
-      #social = [
-      #  ["fa-linkedin", "#"]
-      #]
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/angie-hsu-shaoting"]
+      ]
 
     [[params.team.members]]
       img = "ning.jpg"
