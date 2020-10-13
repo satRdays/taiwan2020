@@ -51,7 +51,11 @@
 
   {{ if .Site.Params.ticket.enable }}
   {{ partial "ticket.html" . }}
-  {{ end }}  
+  {{ end }}
+
+  {{ if .Site.Params.manual.enable }}
+  {{ partial "manual.html" . }}
+  {{ end }}
 
   {{ if .Site.Params.location.enable }}
   {{ partial "location.html" . }}
