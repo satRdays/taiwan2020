@@ -256,6 +256,13 @@ googleAnalytics = ""
     subtitle = "You can buy tickets via KKTIX below."
     bg = true
 
+  # Manual section
+  [params.manual]
+    enable = true
+    title = "Manual"
+    subtitle = "You can download 2020 SatRday Taiwan's manual via below url."
+    bg = true
+
   # Location section
   [params.location]
     enable = true
