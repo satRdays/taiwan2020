@@ -259,8 +259,8 @@ googleAnalytics = ""
   # Manual section
   [params.manual]
     enable = true
-    title = "Manual"
-    subtitle = "You can download 2020 SatRday Taiwan's manual via below url."
+    title = "Conference Handbook"
+    subtitle = "You can download 2020 SatRday Taiwan's conference handbook via below url."
     bg = true
 
   # Location section
